@@ -62,6 +62,7 @@ To install from source, you need to clone the repository and install the library
 # Use of virtual environment is highy recommended
 # Using conda
 yes | conda create -n anomalib_env python=3.10
+source /home/user/conda/etc/profile.d/conda.sh
 conda activate anomalib_env
 
 # Or using your favorite virtual environment
