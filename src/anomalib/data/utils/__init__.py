@@ -15,7 +15,7 @@ from .image import (
     read_image,
 )
 from .label import LabelName
-from .path import DirType, _check_and_convert_path, _prepare_files_labels, _resolve_path
+from .path import DirType, COCOType, _check_and_convert_path, _prepare_files_labels, _resolve_path
 from .split import (
     Split,
     TestSplitMode,
@@ -41,6 +41,7 @@ __all__ = [
     "TestSplitMode",
     "LabelName",
     "DirType",
+    "COCOType",
     "Augmenter",
     "masks_to_boxes",
     "boxes_to_masks",

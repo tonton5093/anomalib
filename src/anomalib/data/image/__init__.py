@@ -14,6 +14,7 @@ from .folder import Folder
 from .kolektor import Kolektor
 from .mvtec import MVTec
 from .visa import Visa
+from .coco import COCO
 
 
 class ImageDataFormat(str, Enum):
@@ -26,6 +27,7 @@ class ImageDataFormat(str, Enum):
     FOLDER = "folder"
     FOLDER_3D = "folder_3d"
     VISA = "visa"
+    COCO = 'coco'
 
 
-__all__ = ["BTech", "Folder", "Kolektor", "MVTec", "Visa"]
+__all__ = ["BTech", "Folder", "Kolektor", "MVTec", "Visa", "COCO"]
